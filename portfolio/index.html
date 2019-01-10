@@ -1,0 +1,53 @@
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="utf-8" />
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <title>MY portfolio</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+            <script src="main.js"></script>
+        </head>
+        <body>
+            <aside>
+                <figure>
+                    <div id="avatar"></div>
+                    <figcaption>Kuti Gbolahan</figcaption>
+                </figure>
+                <img src="images/menu.svg">
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Me</a></li>
+                        <li><a href="#">portfolio</a></li>
+                        <li><a href="#">Contact</a></li>
+                        
+                    </ul>
+                </nav>
+            </aside>
+            <main>
+                <h1>I'm a Designer of Things</h1>
+                <p>I design things and make them come to life, imagine
+                        the endless possibilities.</p>
+
+                        <a href="https://www.behance.net/kutigbolah6f90" class="cta">View my portfolio on behance</a>
+                        
+
+            </main>
+            <script>
+                (function(){
+                    var menu = document.querySelector('ul'),
+                    menulink = document.querySelector('img');
+
+                    menulink.addEventListener('click', function(e){
+                        menu.classList.toggle('active');
+                        e.preventDefault();
+                    });
+                    (function(){
+                        cta.addEventListener('click');
+                    });
+                })();
+                    
+            </script>
+        </body>
+        </html>
